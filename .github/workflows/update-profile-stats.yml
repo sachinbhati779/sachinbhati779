@@ -1,0 +1,44 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Generate live profile stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_profile_stats.py
+
+      - name: Commit updated SVGs
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: update live profile stats"
+          file_pattern: "assets/streak.svg assets/languages.svg"
