@@ -2,11 +2,21 @@
 
 <h3><code>sachin@github:~$ whoami</code></h3>
 
-<p>
-  <img src="./assets/ascii.svg" width="390" alt="ASCII portrait of Sachin Bhati">
-  &nbsp;&nbsp;&nbsp;
-  <img src="./assets/info-card.svg" width="490" alt="Terminal profile card">
-</p>
+<table>
+<tr>
+<td width="42%" align="center" valign="middle">
+
+<img src="./assets/ascii.svg" width="310" alt="ASCII portrait of Sachin Bhati">
+
+</td>
+
+<td width="58%" valign="middle">
+
+<img src="./assets/info-card.svg" width="430" alt="Terminal profile card">
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -32,7 +42,6 @@
 </picture>
 
 </div>
-
 ## `$ stack`
 
 ### Languages
