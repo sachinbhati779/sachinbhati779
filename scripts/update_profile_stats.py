@@ -17,6 +17,37 @@ OUTPUT_DIR = Path("assets")
 GITHUB_API = "https://api.github.com"
 CONTRIBUTIONS_URL = f"https://github.com/users/{USERNAME}/contributions"
 
+def fetch_profile_stats(session: requests.Session) -> dict:
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          totalCommitContributions
+          totalPullRequestContributions
+          totalIssueContributions
+          totalRepositoryContributions
+        }
+      }
+    }
+    """
+
+    response = session.post(
+        "https://api.github.com/graphql",
+        json={
+            "query": query,
+            "variables": {"login": USERNAME},
+        },
+        timeout=30,
+    )
+
+    response.raise_for_status()
+
+    payload = response.json()
+
+    if "errors" in payload:
+        raise RuntimeError(payload["errors"])
+
+    return payload["data"]["user"]["contributionsCollection"]
 
 def github_session() -> requests.Session:
     session = requests.Session()
@@ -420,12 +451,21 @@ def main() -> None:
     session = github_session()
 
     contributions = fetch_contributions(session)
-    stats = calculate_streaks(contributions)
+stats = calculate_streaks(contributions)
 
-    languages = fetch_languages(session)
+profile_stats = fetch_profile_stats(session)
 
-    write_streak_svg(stats)
-    write_languages_svg(languages)
+stats["total_commits"] = profile_stats["totalCommitContributions"]
+
+languages = fetch_languages(session)
+
+write_streak_svg(stats)
+write_languages_svg(languages)
+
+print(f"Total commits: {stats['total_commits']}")
+print(f"Total contributions: {stats['total']}")
+print(f"Current streak: {stats['current']}")
+print(f"Longest streak: {stats['longest']}")
 
     print("Updated assets/streak.svg")
     print("Updated assets/languages.svg")
