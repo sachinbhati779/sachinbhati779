@@ -75,16 +75,5 @@
 ![SciPy](https://img.shields.io/badge/SciPy-0C55A5?style=flat-square&logo=scipy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=Matplotlib&logoColor=white)
 
----
 
-## `$ projects`
 
-Building across:
-
-```text
-AI
-Software
-IoT
-Robotics
-Developer Tools
-Startups
