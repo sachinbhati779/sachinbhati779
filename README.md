@@ -84,6 +84,17 @@
 ![SciPy](https://img.shields.io/badge/SciPy-0C55A5?style=flat-square&logo=scipy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=Matplotlib&logoColor=white)
 
+<div align="center">
+
+<h3><code>sachin@github:~$ github.stats</code></h3>
+
+<img src="./assets/streak.svg" width="760" alt="GitHub contribution streak">
+
+<br><br>
+
+<img src="./assets/languages.svg" width="760" alt="Most used languages">
+
+</div>
 
 <div align="center">
 
