@@ -1,0 +1,160 @@
+<svg width="760" height="320" viewBox="0 0 760 320"
+xmlns="http://www.w3.org/2000/svg">
+
+<rect width="760" height="320" rx="14" fill="#0d1117"/>
+<rect x="1" y="1" width="758" height="318" rx="13"
+fill="none" stroke="#30363d" stroke-width="2"/>
+
+<rect x="2" y="2" width="756" height="46" rx="12" fill="#161b22"/>
+
+<circle cx="24" cy="25" r="7" fill="#ff5f56"/>
+<circle cx="46" cy="25" r="7" fill="#ffbd2e"/>
+<circle cx="68" cy="25" r="7" fill="#27c93f"/>
+
+<text x="88" y="30"
+font-family="monospace"
+font-size="14"
+fill="#8b949e">
+sachin@github:~$ languages
+</text>
+
+<text x="34" y="82"
+font-family="monospace"
+font-size="14"
+fill="#3fb950">
+language_usage
+</text>
+
+<text x="34" y="116"
+font-family="monospace"
+font-size="13"
+fill="#c9d1d9">
+TypeScript
+</text>
+
+<rect x="150" y="105"
+width="360" height="14" rx="7"
+fill="#21262d"/>
+
+<rect x="150" y="105"
+width="93.3" height="14" rx="7"
+fill="#3178c6"/>
+
+<text x="530" y="116"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+25.92%
+</text>
+
+<text x="34" y="150"
+font-family="monospace"
+font-size="13"
+fill="#c9d1d9">
+Java
+</text>
+
+<rect x="150" y="139"
+width="360" height="14" rx="7"
+fill="#21262d"/>
+
+<rect x="150" y="139"
+width="90.0" height="14" rx="7"
+fill="#b07219"/>
+
+<text x="530" y="150"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+25.00%
+</text>
+
+<text x="34" y="184"
+font-family="monospace"
+font-size="13"
+fill="#c9d1d9">
+Jupyter Notebook
+</text>
+
+<rect x="150" y="173"
+width="360" height="14" rx="7"
+fill="#21262d"/>
+
+<rect x="150" y="173"
+width="87.0" height="14" rx="7"
+fill="#f37726"/>
+
+<text x="530" y="184"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+24.15%
+</text>
+
+<text x="34" y="218"
+font-family="monospace"
+font-size="13"
+fill="#c9d1d9">
+Python
+</text>
+
+<rect x="150" y="207"
+width="360" height="14" rx="7"
+fill="#21262d"/>
+
+<rect x="150" y="207"
+width="53.4" height="14" rx="7"
+fill="#3776ab"/>
+
+<text x="530" y="218"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+14.82%
+</text>
+
+<text x="34" y="252"
+font-family="monospace"
+font-size="13"
+fill="#c9d1d9">
+HTML
+</text>
+
+<rect x="150" y="241"
+width="360" height="14" rx="7"
+fill="#21262d"/>
+
+<rect x="150" y="241"
+width="31.6" height="14" rx="7"
+fill="#e34c26"/>
+
+<text x="530" y="252"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+8.77%
+</text>
+
+<text x="34" y="286"
+font-family="monospace"
+font-size="13"
+fill="#c9d1d9">
+CSS
+</text>
+
+<rect x="150" y="275"
+width="360" height="14" rx="7"
+fill="#21262d"/>
+
+<rect x="150" y="275"
+width="5.0" height="14" rx="7"
+fill="#6f42c1"/>
+
+<text x="530" y="286"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+1.01%
+</text>
+
+</svg>

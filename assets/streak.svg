@@ -1,0 +1,110 @@
+<svg width="760" height="250" viewBox="0 0 760 250"
+xmlns="http://www.w3.org/2000/svg">
+
+<rect width="760" height="250" rx="14" fill="#0d1117"/>
+<rect x="1" y="1" width="758" height="248" rx="13"
+fill="none" stroke="#30363d" stroke-width="2"/>
+
+<rect x="2" y="2" width="756" height="46" rx="12" fill="#161b22"/>
+
+<circle cx="24" cy="25" r="7" fill="#ff5f56"/>
+<circle cx="46" cy="25" r="7" fill="#ffbd2e"/>
+<circle cx="68" cy="25" r="7" fill="#27c93f"/>
+
+<text x="88" y="30"
+font-family="monospace"
+font-size="14"
+fill="#8b949e">
+sachin@github:~$ streak
+</text>
+
+<text x="34" y="86"
+font-family="monospace"
+font-size="14"
+fill="#3fb950">
+total_contributions
+</text>
+
+<text x="34" y="124"
+font-family="monospace"
+font-size="34"
+font-weight="bold"
+fill="#f0f6fc">
+94
+</text>
+
+<text x="34" y="150"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+Aug 24, 2026 → Sep 4, 2026
+</text>
+
+<line x1="250" y1="72" x2="250" y2="194"
+stroke="#30363d"/>
+
+<text x="286" y="86"
+font-family="monospace"
+font-size="14"
+fill="#58a6ff">
+current_streak
+</text>
+
+<text x="286" y="124"
+font-family="monospace"
+font-size="34"
+font-weight="bold"
+fill="#f0f6fc">
+2
+</text>
+
+<text x="286" y="150"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+Sep 13, 2026 → Sep 14, 2026
+</text>
+
+<line x1="510" y1="72" x2="510" y2="194"
+stroke="#30363d"/>
+
+<text x="546" y="86"
+font-family="monospace"
+font-size="14"
+fill="#58a6ff">
+longest_streak
+</text>
+
+<text x="546" y="124"
+font-family="monospace"
+font-size="34"
+font-weight="bold"
+fill="#f0f6fc">
+12
+</text>
+
+<text x="546" y="150"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+days
+</text>
+
+<line x1="34" y1="194" x2="726" y2="194"
+stroke="#21262d"/>
+
+<text x="34" y="220"
+font-family="monospace"
+font-size="12"
+fill="#3fb950">
+status:
+</text>
+
+<text x="94" y="220"
+font-family="monospace"
+font-size="12"
+fill="#8b949e">
+live GitHub data
+</text>
+
+</svg>
