@@ -273,22 +273,22 @@ sachin@github:~$ streak
 font-family="monospace"
 font-size="14"
 fill="#3fb950">
-total_contributions
+total_commits
 </text>
 
-<text x="34" y="124"
+<text x="34" y="126"
 font-family="monospace"
-font-size="34"
+font-size="38"
 font-weight="bold"
 fill="#f0f6fc">
-{stats["total"]}
+{stats["total_commits"]}
 </text>
 
-<text x="34" y="150"
+<text x="34" y="151"
 font-family="monospace"
 font-size="12"
 fill="#8b949e">
-{fmt(stats["longest_start"])} → {fmt(stats["longest_end"])}
+all-time commits
 </text>
 
 <line x1="250" y1="72" x2="250" y2="194"
@@ -301,15 +301,15 @@ fill="#58a6ff">
 current_streak
 </text>
 
-<text x="286" y="124"
+<text x="286" y="126"
 font-family="monospace"
-font-size="34"
+font-size="38"
 font-weight="bold"
 fill="#f0f6fc">
 {stats["current"]}
 </text>
 
-<text x="286" y="150"
+<text x="286" y="151"
 font-family="monospace"
 font-size="12"
 fill="#8b949e">
@@ -326,15 +326,15 @@ fill="#58a6ff">
 longest_streak
 </text>
 
-<text x="546" y="124"
+<text x="546" y="126"
 font-family="monospace"
-font-size="34"
+font-size="38"
 font-weight="bold"
 fill="#f0f6fc">
 {stats["longest"]}
 </text>
 
-<text x="546" y="150"
+<text x="546" y="151"
 font-family="monospace"
 font-size="12"
 fill="#8b949e">
