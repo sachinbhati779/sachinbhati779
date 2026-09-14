@@ -18,36 +18,77 @@ GITHUB_API = "https://api.github.com"
 CONTRIBUTIONS_URL = f"https://github.com/users/{USERNAME}/contributions"
 
 def fetch_profile_stats(session: requests.Session) -> dict:
+    """
+    Get all-time GitHub contribution commit stats by querying
+    each calendar year separately and summing the commit counts.
+    """
+
     query = """
-    query($login: String!) {
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $login) {
-        contributionsCollection {
+        contributionsCollection(from: $from, to: $to) {
           totalCommitContributions
           totalPullRequestContributions
           totalIssueContributions
           totalRepositoryContributions
+          startedAt
+          endedAt
         }
       }
     }
     """
 
-    response = session.post(
-        "https://api.github.com/graphql",
-        json={
-            "query": query,
-            "variables": {"login": USERNAME},
-        },
-        timeout=30,
-    )
+    current_year = datetime.now(timezone.utc).year
+    start_year = 2000
 
-    response.raise_for_status()
+    total_commits = 0
+    total_pull_requests = 0
+    total_issues = 0
+    total_repositories = 0
 
-    payload = response.json()
+    for year in range(start_year, current_year + 1):
+        from_date = f"{year}-01-01T00:00:00Z"
 
-    if "errors" in payload:
-        raise RuntimeError(payload["errors"])
+        if year == current_year:
+            to_date = datetime.now(timezone.utc).strftime(
+                "%Y-%m-%dT%H:%M:%SZ"
+            )
+        else:
+            to_date = f"{year + 1}-01-01T00:00:00Z"
 
-    return payload["data"]["user"]["contributionsCollection"]
+        response = session.post(
+            "https://api.github.com/graphql",
+            json={
+                "query": query,
+                "variables": {
+                    "login": USERNAME,
+                    "from": from_date,
+                    "to": to_date,
+                },
+            },
+            timeout=30,
+        )
+
+        response.raise_for_status()
+
+        payload = response.json()
+
+        if "errors" in payload:
+            raise RuntimeError(payload["errors"])
+
+        collection = payload["data"]["user"]["contributionsCollection"]
+
+        total_commits += collection["totalCommitContributions"]
+        total_pull_requests += collection["totalPullRequestContributions"]
+        total_issues += collection["totalIssueContributions"]
+        total_repositories += collection["totalRepositoryContributions"]
+
+    return {
+        "totalCommitContributions": total_commits,
+        "totalPullRequestContributions": total_pull_requests,
+        "totalIssueContributions": total_issues,
+        "totalRepositoryContributions": total_repositories,
+    }
 
 def github_session() -> requests.Session:
     session = requests.Session()
