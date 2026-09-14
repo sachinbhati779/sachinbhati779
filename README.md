@@ -1,22 +1,20 @@
-<div align="center">
-
-<pre>
-╭─────────────────────────────────────────────────────────────╮
-│                                                             │
-│  $ ./sachin                                                 │
-│                                                             │
-│  BUILDER • DEVELOPER • TECH ENTHUSIAST                      │
-│                                                             │
-╰─────────────────────────────────────────────────────────────╯
-</pre>
-
-</div>
-
 ## `$ whoami`
 
-**Sachin Bhati** — Builder, Developer & Tech Enthusiast.
+<table>
+<tr>
+<td valign="top">
 
-Exploring **AI, software, IoT, robotics, and startups**, with a focus on turning ideas into real-world solutions.
+<img src="./assets/ascii.svg" width="360" alt="ASCII portrait of Sachin Bhati">
+
+</td>
+
+<td valign="top">
+
+<img src="./assets/info-card.svg" width="490" alt="Terminal profile card">
+
+</td>
+</tr>
+</table>
 
 ---
 
