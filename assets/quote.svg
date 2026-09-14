@@ -1,0 +1,109 @@
+<svg
+  width="760"
+  height="220"
+  viewBox="0 0 760 220"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <rect
+    width="760"
+    height="220"
+    rx="14"
+    fill="#0d1117"
+  />
+
+  <rect
+    x="1"
+    y="1"
+    width="758"
+    height="218"
+    rx="13"
+    fill="none"
+    stroke="#30363d"
+    stroke-width="2"
+  />
+
+  <!-- Terminal header -->
+  <rect
+    x="2"
+    y="2"
+    width="756"
+    height="46"
+    rx="12"
+    fill="#161b22"
+  />
+
+  <circle cx="24" cy="25" r="7" fill="#ff5f56"/>
+  <circle cx="46" cy="25" r="7" fill="#ffbd2e"/>
+  <circle cx="68" cy="25" r="7" fill="#27c93f"/>
+
+  <text
+    x="88"
+    y="30"
+    font-family="monospace"
+    font-size="14"
+    fill="#8b949e"
+  >
+    sachin@github:~$ fortune
+  </text>
+
+  <!-- Quote -->
+  <text
+    x="34"
+    y="92"
+    font-family="monospace"
+    font-size="17"
+    fill="#58a6ff"
+  >
+    &gt;
+  </text>
+
+  <text
+    x="58"
+    y="92"
+    font-family="monospace"
+    font-size="16"
+    fill="#c9d1d9"
+  >
+    Build things that solve real problems.
+  </text>
+
+  <text
+    x="58"
+    y="120"
+    font-family="monospace"
+    font-size="16"
+    fill="#c9d1d9"
+  >
+    Learn continuously. Ship relentlessly.
+  </text>
+
+  <line
+    x1="34"
+    y1="145"
+    x2="726"
+    y2="145"
+    stroke="#21262d"
+  />
+
+  <text
+    x="34"
+    y="178"
+    font-family="monospace"
+    font-size="13"
+    fill="#3fb950"
+  >
+    [ OK ]
+  </text>
+
+  <text
+    x="92"
+    y="178"
+    font-family="monospace"
+    font-size="13"
+    fill="#8b949e"
+  >
+    system status: keep building
+  </text>
+
+</svg>
