@@ -1,0 +1,57 @@
+<svg width="390" height="506" viewBox="0 0 390 506" xmlns="http://www.w3.org/2000/svg">
+<rect width="390" height="506" rx="14" fill="#0d1117"/>
+<rect x="1" y="1" width="388" height="504" rx="13" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="2" y="2" width="386" height="42" rx="12" fill="#161b22"/>
+<style>
+.ascii{font-family:"DejaVu Sans Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:8px;fill:#c9d1d9;}
+@keyframes reveal{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+</style>
+<text x="20" y="28" font-family="monospace" font-size="13" font-weight="bold" fill="#3fb950">sachin@github:~$ ./portrait</text>
+<circle cx="330" cy="22" r="6" fill="#ff5f56"/>
+<circle cx="352" cy="22" r="6" fill="#ffbd2e"/>
+<circle cx="374" cy="22" r="6" fill="#27c93f"/>
+<text x="195.0" y="58" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.000s both">                                               +====+                 </text>
+<text x="195.0" y="68" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.025s both">                                        *****+*******++*              </text>
+<text x="195.0" y="78" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.050s both">                                    ###**###****##**#**#*             </text>
+<text x="195.0" y="88" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.075s both">                                #*****###############*##**            </text>
+<text x="195.0" y="98" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.100s both">                                #########*#################           </text>
+<text x="195.0" y="108" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.125s both">                                #########*+====---=+######            </text>
+<text x="195.0" y="118" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.150s both">                                %#####**+=--:::::::==*####            </text>
+<text x="195.0" y="128" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.175s both">                                 ##%+++===::...:::-=**####            </text>
+<text x="195.0" y="138" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.200s both">                                  #*=*####*=-:-*####**+###            </text>
+<text x="195.0" y="148" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.225s both">                                 *#==*##%##*::+*##%##+=*#*+           </text>
+<text x="195.0" y="158" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.250s both">                                ==#-::-==-=- .-=-===---+#=+           </text>
+<text x="195.0" y="168" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.275s both">                                ==*-.....::...::.  ...:**++           </text>
+<text x="195.0" y="178" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.300s both">                                 =*+---::=#*++**-..::-+%*=            </text>
+<text x="195.0" y="188" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.325s both">                                     #*+=+**######**+=++#             </text>
+<text x="195.0" y="198" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.350s both">                                      #*******++++**+***              </text>
+<text x="195.0" y="208" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.375s both">                                       ##*+==*##+==+**##              </text>
+<text x="195.0" y="218" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.400s both">                                        ###*+=++=+*###*+              </text>
+<text x="195.0" y="228" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.425s both">                                      +=+#########**+===**            </text>
+<text x="195.0" y="238" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.450s both">                                :.:+--==+*++*++++======+:.::          </text>
+<text x="195.0" y="248" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.475s both">                        -:......-=----=======--====+:.:......-        </text>
+<text x="195.0" y="258" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.500s both">                  -............-===-=====--====+=:.............:      </text>
+<text x="195.0" y="268" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.525s both">              :.......::::.....:-=========++=-::.......::::.......    </text>
+<text x="195.0" y="278" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.550s both">           :......::::..........:::-------:::::.:::..::::::.......:   </text>
+<text x="195.0" y="288" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.575s both">         :::-....::::...::..::::::::::::::::::::::...::--::::--..:-   </text>
+<text x="195.0" y="298" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.600s both">        -:::=-.::::::....::.:::::::.....::::::::::....::---::=::.:--  </text>
+<text x="195.0" y="308" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.625s both">      :::::-=..::::.....::::::--=--::::::::...::::....::--:=-::.--:-  </text>
+<text x="195.0" y="318" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.650s both">     ==-::.-=:..::::...:::::::::-==--::::......:::.....:-::=::.:-:-:  </text>
+<text x="195.0" y="328" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.675s both">     :-==-::=-...:::::::::::::::::-----:.......::::..::::::-::.:-=-:: </text>
+<text x="195.0" y="338" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.700s both">   ::--======:...::---:::::::::::-----:::::...:----::::::-=-:--=--:.= </text>
+<text x="195.0" y="348" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.725s both">   ..--==--++:...::-----::::::::::-----:::::.::-----:::::=++=-=---:.: </text>
+<text x="195.0" y="358" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.750s both">  -..:--==--+-.....:-----::::::::::------:::..::----:::::*+-==---::.. </text>
+<text x="195.0" y="368" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.775s both">  :...:-===-+=:.....:----:::::::::::------:::..:::-:::::-*-------:... </text>
+<text x="195.0" y="378" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.800s both">  :....::====+:.....::----:::::::::::-------:..:::::::::==-----::.... </text>
+<text x="195.0" y="388" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.825s both">  -....::-===+-:......:--------:::::::-----:::.::::::::-*=----::..... </text>
+<text x="195.0" y="398" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.850s both">  -.......:==+=-:......:-------::::::::----:::::::::::--*----::.....:=</text>
+<text x="195.0" y="408" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.875s both"> +-:......::-=+-::......:------::::::::----:::..::::::-=+---:::.....:=</text>
+<text x="195.0" y="418" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.900s both"> +-=.......:-=+=--:.......:::::::::::::----::.....::---+=--:::..:::.:=</text>
+<text x="195.0" y="428" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.925s both"> ====:....:::=+*--::......:::::::::::::-----::....:::-=+=-::..:::::.==</text>
+<text x="195.0" y="438" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.950s both"> --===-...::-++*+--:::::::::::::::::::::------:...::--++=-::::::::.-==</text>
+<text x="195.0" y="448" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 0.975s both"> -::----::::=****=--:::::::::::::::::::::-----:::..:-+*+=---:::::-=--=</text>
+<text x="195.0" y="458" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 1.000s both"> ---=======--=+*++=--::::::::::::::::::::::-----:::-+***+=-----=====-=</text>
+<text x="195.0" y="468" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 1.025s both">==-=--:...:::-++*==-::::::::::::::::::::::::-----:-+++===-:::::----===</text>
+<text x="195.0" y="478" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 1.050s both">+==---::.:::::=**=--::::......:::::.............::-=+#+*+===-:...:::-=</text>
+<text x="195.0" y="488" class="ascii" text-anchor="middle" style="animation:reveal .3s ease-out 1.075s both"> *+=-:.:..   ..-++-:::..            ........:::--=++*=::....::---::-+ </text>
+</svg>
