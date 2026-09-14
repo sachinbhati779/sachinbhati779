@@ -18,7 +18,12 @@ Builder | Developer | Tech Enthusiast<br><br>Exploring AI, software, IoT, roboti
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=sachinbhati779&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## 🐍 GitHub Activity
+
+<div align="center">
+
+![GitHub Contribution Snake](https://github.com/sachinbhati779/sachinbhati779/blob/output/github-contribution-grid-snake.svg)
+
+</div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
