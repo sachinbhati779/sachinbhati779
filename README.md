@@ -85,4 +85,10 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=Matplotlib&logoColor=white)
 
 
+<div align="center">
 
+<h3><code>sachin@github:~$ fortune</code></h3>
+
+<img src="./assets/quote.svg" width="760" alt="Terminal quote">
+
+</div>
