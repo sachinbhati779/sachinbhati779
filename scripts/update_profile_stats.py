@@ -451,24 +451,19 @@ def main() -> None:
     session = github_session()
 
     contributions = fetch_contributions(session)
-stats = calculate_streaks(contributions)
+    stats = calculate_streaks(contributions)
 
-profile_stats = fetch_profile_stats(session)
+    profile_stats = fetch_profile_stats(session)
+    stats["total_commits"] = profile_stats["totalCommitContributions"]
 
-stats["total_commits"] = profile_stats["totalCommitContributions"]
+    languages = fetch_languages(session)
 
-languages = fetch_languages(session)
-
-write_streak_svg(stats)
-write_languages_svg(languages)
-
-print(f"Total commits: {stats['total_commits']}")
-print(f"Total contributions: {stats['total']}")
-print(f"Current streak: {stats['current']}")
-print(f"Longest streak: {stats['longest']}")
+    write_streak_svg(stats)
+    write_languages_svg(languages)
 
     print("Updated assets/streak.svg")
     print("Updated assets/languages.svg")
+    print(f"Total commits: {stats['total_commits']}")
     print(f"Total contributions: {stats['total']}")
     print(f"Current streak: {stats['current']}")
     print(f"Longest streak: {stats['longest']}")
