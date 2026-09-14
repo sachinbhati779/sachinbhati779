@@ -1,26 +1,20 @@
-## `$ whoami`
+<div align="center">
 
-<table>
-<tr>
-<td valign="top">
+<h3><code>sachin@github:~$ whoami</code></h3>
 
-<img src="./assets/ascii.svg" width="360" alt="ASCII portrait of Sachin Bhati">
+<p>
+  <img src="./assets/ascii.svg" width="390" alt="ASCII portrait of Sachin Bhati">
+  &nbsp;&nbsp;&nbsp;
+  <img src="./assets/info-card.svg" width="490" alt="Terminal profile card">
+</p>
 
-</td>
+</div>
 
-<td valign="top">
-
-<img src="./assets/info-card.svg" width="490" alt="Terminal profile card">
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ github.activity`
+<br>
 
 <div align="center">
+
+<h3><code>sachin@github:~$ github.activity</code></h3>
 
 <picture>
   <source
@@ -38,8 +32,6 @@
 </picture>
 
 </div>
-
----
 
 ## `$ stack`
 
