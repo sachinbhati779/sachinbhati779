@@ -86,18 +86,6 @@
 
 <div align="center">
 
-<h3><code>sachin@github:~$ github.stats</code></h3>
-
-<img src="./assets/streak.svg" width="760" alt="GitHub contribution streak">
-
-<br><br>
-
-<img src="./assets/languages.svg" width="760" alt="Most used languages">
-
-</div>
-
-<div align="center">
-
 <h3><code>sachin@github:~$ fortune</code></h3>
 
 <img src="./assets/quote.svg" width="760" alt="Terminal quote">
