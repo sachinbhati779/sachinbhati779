@@ -30,7 +30,7 @@ font-family="monospace"
 font-size="38"
 font-weight="bold"
 fill="#f0f6fc">
-106
+107
 </text>
 
 <text x="34" y="151"
@@ -55,14 +55,14 @@ font-family="monospace"
 font-size="38"
 font-weight="bold"
 fill="#f0f6fc">
-15
+0
 </text>
 
 <text x="286" y="151"
 font-family="monospace"
 font-size="12"
 fill="#8b949e">
-Nov 10, 2026 → Nov 24, 2026
+— → —
 </text>
 
 <line x1="510" y1="72" x2="510" y2="194"
